@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+	margin: 0px;
+}
+
+/******** formatação menu ***************/
+
+#menu{
+	position: relative;
+	width: 100%;
+	overflow: auto;
+	height: 200px;
+}
+
+.logo-area {
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	left: 50%;
+	top:0;
+	content: "";
+	margin-left: -100px;
+	margin-top: 15px;
+}
+
+.menu-item{
+	margin: 0px auto;
+	width: 1170px;
+}
+
+.menu-item ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	padding-top: 65px;
+}
+
+.menu-item ul li { 
+	display: inline-block;
+	float: none;
+	margin-right: 80px;
+}
+
+.menu-item ul li:nth-child(1){
+	float: left;
+	margin-left: 80px;
+}
+
+.menu-item ul li:nth-child(2){
+	float: left;
+}
+
+.menu-item ul li a {
+    padding: 2px 10px;
+    display: block;
+    font-family: ;
+    font-size: 20pt;
+    color: #333;
+    text-decoration: none;
+    margin-top: 13px; 
+}
+
+.menu-item ul li a:hover {
+    color: gray;  
+}
+
+/***************** fim do menu *******************/
+
+hr{
+	margin-top: 30px;
+	margin-bottom: 0.5px;
+}
+
+#conteudo1{
+	width: 100%;
+	height: 560px;
+	position: relative;
+	display: inline-block;
+	margin-top: 0;
+}
+
+#img1{
+	float: left;
+	margin-left:250px;
+	margin-top: 60px;
+	padding-right: 20px;
+}
+#conteudo1 h1 { 
+	font-family: 'Montserrat', sans-serif; 
+	margin-top: 44px;
+    font-size: 49px;
+	color:#563e12;
+}
+
+#conteudo1 p {
+
+    text-align: justify;   
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 80px;
+    color: #241d05;
+}
+
+fieldset {
+    border-top: 1px solid #333;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    margin-right: 80px; 
+    margin-left:80px;
+}
+
+fieldset legend {
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    color: #241d05;
+}
+
+/*************************************************/
+#conteudo2{
+	width: 100%;
+	height: 350px;
+}
+
+div.gallery {
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#conteudo3 h2{
+	text-align: center;   
+	font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #241d05;
+}
+#mascaras{
+	width: 100%;
+	height: 350px;
+}
+
+div.mascara {
+  margin-top: 10px;
+  margin-left: 210px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+}
+
+div.mascara:hover {
+  border: 1px solid #777;
+}
+
+div.mascara img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*******************fim home*********************/
+
+/********************Produtos********************/
+
+#container-produtos{
+	width: 100%;
+	height: 1200px;
+}
+
+#container-produtos h2 {
+	margin-left: 30px;
+	font-family: 'Montserrat' sans-serif;
+	font-size: 37px;
+	color: #241d05;
+}
+
+div.blusa {
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.blusa:hover {
+  border: 1px solid #777;
+}
+
+div.blusa img {
+  width: 100%;
+  height: auto;
+}
+#blusas{
+	width: 100%;
+	height: 300px;
+}
+
+div.vestido {
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.vestido:hover {
+  border: 1px solid #777;
+}
+
+div.vestido img {
+  width: 100%;
+  height: auto;
+}
+#vestidos{
+	width: 100%;
+	height: 300px;
+}
+
+div.jogo-americano {
+  margin-top: 10px;
+  margin-left: 100px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+}
+
+div.jogo-americano:hover {
+  border: 1px solid #777;
+}
+
+div.jogo-americano img {
+  width: 100%;
+  height: auto;
+}
+#jogos-americanos{
+	width: 100%;
+	height: 200px;
+}
+
+/*******************fim produtos*********************/
+
+/******************* inicio localização*********************/
+
+section#endereco{
+	width: 100%
+	height:400px;
+}
+
+section h2  {
+	font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    color: #241d05;
+    text-align:center;
+    margin-top: 50px
+}
+
+section p{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+    color: #241d05;
+    text-align: center;
+}
+
+iframe{
+	margin: 20px 5px 30px 200px;
+	float: left;
+}
+
+/*******************fim localização*********************/
+
+/******************* inicio Contato   *********************/
+
+#container{
+	background-color: #f1e6be;
+	width: 100%;
+	height: 740px;
+}
+#container-1 h1{
+	text-align: center;
+	font-size:39px;
+	font-family: 'Montserrat' ,sans-serif;
+	color: #6f3625;
+}
+
+#container-1 h2{
+	text-align: center;
+	font-size:17px;
+	font-family: 'Montserrat' ,sans-serif;
+	color: #6f3625;
+}
+#container-2{
+	text-align: center;
+	width: 500px;
+	margin-left: 432px;
+}
+
+form{
+	border: 1px solid black;
+}
+
+input#enviar {
+	padding: 20px 30px 20px 30px;
+	font-size: 16px;
+	color: black;
+	font-family: ',Montserrat';
+}
+
+/*********************fim contato*******************/
+
+/***************** rodapé *******************/
+
+.rodape{
+	width: 92%;
+	height: 15px;
+	text-align: center;
+	padding:3%  4%;
+    background:  linear-gradient(to right,#ce2e3c,#da6709);
+}
+.rede-social a{
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.7);
+	margin-right: 3%;
+}
+.rede-social a:hover{
+	color: rgba(255,255,255);
+}
+.rede-social a:last-child{
+	margin-right: 0;
+}
+/*************** fim rodapé *****************/

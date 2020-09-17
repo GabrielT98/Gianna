@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gianna Atelier</title>
+	<meta charset="utf-8">
+    <link rel = "stylesheet" type="text/css" href = "css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"   >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/validar_formulario.js"></script>
+
+</head>
+
+<body>
+
+    <div id="menu">
+		<div class="logo-area">
+			<img src="img/logo3.jpg">
+		</div>
+
+	    <div class="menu-item">
+		    <ul>	
+			    <li> <a href="index.html">Home                  </a>  </li>
+			    <li> <a href="produtos.html">Produtos           </a>  </li>
+			    <li> <a href="localizacao.html"> Localização    </a>  </li>
+			    <li> <a href="contato.html">Contato             </a>  </li>
+		    </ul>
+	    </div>
+	</div>
+	
+
+	<div id="container">
+		<div id="container-1">
+			<h1> Fale Conosco</h1>
+			<h2> ENVIE SUA MENSAGEM ATRAVÉS DO FORMULÁRIO ABAIXO.</h2>	
+		</div>
+
+		<div id="container-2">
+		    <form name="formulario" action="" method="post"" onsubmit="return validacao()">
+				
+                <p><b>Nome:</b><br>
+                <input type=text name="nome" size="45"></p><br>
+
+                <p><b>Email:</b><br>
+                <input type=text name="email" size="45"></p><br>
+
+                <p><b>Assunto:</b><br>
+                <input type=text name="assunto" size="45"></p><br>
+
+                <p><b>Mensagem:</b><br>
+                <textarea name="mensagem" rows="10" cols="60" wrap="virtual"></textarea></p><br>
+
+                <p><input id="enviar" type="submit" value="Enviar Email"></p>
+
+            </form>
+
+        </div>
+			
+	</div>
+
+    <footer class="rodape">
+	    <div class="rede-social">
+		    <a><i class="fab fa-facebook"></i></a>
+		    <a href="https://www.instagram.com/gianna_atelier/" target="_blank"><i class="fab fa-instagram"></i></a>
+		    <a><i class="fab fa-twitter"></i></a>
+		</div>
+	</footer>
+
+</body>
+</html>
